@@ -15,6 +15,10 @@ header{
   width: 65%;
   margin: 0 auto; 
   margin-right: 10px;
+  position: fixed;
+  top: 2;
+  left: 35%;
+  transition: transform 0.3s ease-in-out;
 
 }
 li{
@@ -31,4 +35,11 @@ a{
   font-family: 'Chango', cursive;
   letter-spacing: 0.1rem;
 
+}
+
+.navigation.hidden {
+  transform: translateY(-100%); /* move the navigation menu outside of the viewport */
+}
+.me{
+  opacity: 0;
 }

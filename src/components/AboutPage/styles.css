@@ -1,0 +1,46 @@
+.aboutFirstSVG{
+    display: flex;
+    width: 98%;
+    height: 98vh;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.about-container {
+    position: relative;
+  }
+  
+  .about-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+  }
+  
+  .about-text h1 {
+    font-size: 3rem;
+    position: absolute;
+    left: 15%;
+    transform: translate(-50%, -50%) translateX(40rem);
+    margin-top: -5rem;
+  }
+  
+  .about-text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .pic{
+    
+    display: flex;
+    height: 20rem;
+    border-radius: 50%; 
+    width: 22rem;
+    height: 22rem;
+    border: 7px double #f08d13;
+    margin-top: -3rem;
+  }
+.introduce{
+    margin-top: -5rem !important;
+}
