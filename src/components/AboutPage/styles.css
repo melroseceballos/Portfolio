@@ -4,6 +4,7 @@
     height: 98vh;
     margin: 0 auto;
     margin-top: 10rem;
+    opacity: 0;
 }
 .about-container {
     position: relative;
@@ -24,7 +25,7 @@
     position: absolute;
     left: 15%;
     transform: translate(-50%, -50%) translateX(40rem);
-    margin-top: -5rem;
+    margin-top: 6rem;
   }
   
   .about-text p {
@@ -41,6 +42,25 @@
     border: 7px double #f08d13;
     margin-top: -3rem;
   }
-.introduce{
-    margin-top: -5rem !important;
+
+.buzz{
+  margin-left: 40rem;
+  margin-top: 10rem;
+  font-size: 1.2rem;
+}
+.paragraph p{
+font-size: 1.4rem;
+text-align: center;
+border: 3px solid wheat;
+width: 42rem;
+display: flexbox;
+float: right;
+margin-top: -19rem;
+margin-right: -7rem;
+background-color: #f38f16dc;
+height: 18rem;
+border-radius: 5%;
+padding: 0.5rem;
+padding-top: 2rem;
+
 }
