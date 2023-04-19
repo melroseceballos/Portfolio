@@ -1,7 +1,7 @@
 .aboutFirstSVG{
     display: flex;
     width: 98%;
-    height: 98vh;
+    height: 75vh;
     margin: 0 auto;
     margin-top: 10rem;
     opacity: 0;
@@ -12,7 +12,7 @@
   
   .about-text {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -55,7 +55,7 @@ border: 3px solid wheat;
 width: 42rem;
 display: flexbox;
 float: right;
-margin-top: -19rem;
+margin-top: -28rem;
 margin-right: -7rem;
 background-color: #f38f16dc;
 height: 18rem;
@@ -63,4 +63,52 @@ border-radius: 5%;
 padding: 0.5rem;
 padding-top: 2rem;
 
+}
+.left {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #ffffff;
+  border-radius: 50%;
+  margin-left: -60rem;
+  vertical-align: middle; /* Add this line */ 
+}
+
+.left:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.05em;
+  margin-left: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #e37b20;
+  border-right: 0.5em solid #e37b20;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.right {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #ffffff;
+  border-radius: 50%;
+  margin-left: -24rem;
+  vertical-align: middle; 
+  margin-top: -8.74rem;
+}
+
+.right:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.05em;
+  margin-left: -0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #e37b20;
+  border-right: 0.5em solid #e37b20;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
