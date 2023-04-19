@@ -1,13 +1,6 @@
-.aboutFirstSVG{
-    display: flex;
-    width: 98%;
-    height: 75vh;
-    margin: 0 auto;
-    margin-top: 10rem;
-    opacity: 0;
-}
 .about-container {
     position: relative;
+    margin-top: 20rem;
   }
   
   .about-text {
@@ -73,6 +66,9 @@ padding-top: 2rem;
   margin-left: -60rem;
   vertical-align: middle; /* Add this line */ 
 }
+.left:hover{
+  border: 0.5em solid rgb(230, 34, 34);
+}
 
 .left:after {
   content: '';
@@ -111,4 +107,25 @@ padding-top: 2rem;
   -moz-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+.right:hover{
+  border: 0.5em solid rgb(230, 34, 34);
+}
+.hand-emoji {
+  animation: wave 1s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

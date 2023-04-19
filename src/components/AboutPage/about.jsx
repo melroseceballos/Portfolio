@@ -3,9 +3,8 @@ import './styles.css'
 function About() {
   return (
     <div className="about-container">
-      <img src="/AboutFirst.svg" alt='beesBG' className='aboutFirstSVG'/>
       <div className="about-text">
-        <h1 className="aboutIntro">Hi There &#x1F44B;<br />My Name is Melrose Ceballos</h1>
+      <h1 className="aboutIntro">Hi There <span className="hand-emoji" role="img" aria-label="Waving Hand">👋</span><br />My Name is Melrose Ceballos</h1>
         <h3 className='buzz'>..and I'm so buzzed to meet you!</h3>
         <img className="pic" src="pfp.png"/>
         <div>
