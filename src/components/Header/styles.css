@@ -38,7 +38,7 @@ a{
 }
 
 .navigation.hidden {
-  transform: translateY(-100%); /* move the navigation menu outside of the viewport */
+  transform: translateY(-200%); /* move the navigation menu outside of the viewport */
 }
 .me{
   opacity: 0;
