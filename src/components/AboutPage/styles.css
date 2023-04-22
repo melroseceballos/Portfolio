@@ -1,11 +1,10 @@
 .about-container {
     position: relative;
-    margin-top: 20rem;
+    margin-top: 35rem;
   }
   
   .about-text {
     position: absolute;
-    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -18,29 +17,33 @@
     position: absolute;
     left: 15%;
     transform: translate(-50%, -50%) translateX(40rem);
-    margin-top: 6rem;
+    margin-top: -28rem;
   }
-  
+  .buzz{
+    margin-left: 40rem;
+    margin-top: -23rem;
+    font-size: 1.2rem;
+  }
   .about-text p {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-  .pic{
-    
-    display: flex;
-    height: 20rem;
-    border-radius: 50%; 
-    width: 22rem;
-    height: 22rem;
-    border: 7px double #f08d13;
-    margin-top: -3rem;
+  .pic {
+    display: block;
+    margin-left: 8rem;
+    width: 5rem;
+    height: 10rem;
+  
   }
+  
+  .pic img {
+    height: 28rem;
+    margin-top: -28rem;
+    border: 8px solid #f38f16dc ;
+    border-radius: 50%;
+  }
+  
 
-.buzz{
-  margin-left: 40rem;
-  margin-top: 10rem;
-  font-size: 1.2rem;
-}
 .paragraph p{
 font-size: 1.4rem;
 text-align: center;
@@ -49,83 +52,11 @@ width: 42rem;
 display: flexbox;
 float: right;
 margin-top: -28rem;
-margin-right: -7rem;
 background-color: #f38f16dc;
 height: 18rem;
 border-radius: 5%;
 padding: 0.5rem;
 padding-top: 2rem;
-
-}
-.left {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #ffffff;
-  border-radius: 50%;
-  margin-left: -60rem;
-  vertical-align: middle; /* Add this line */ 
-}
-.left:hover{
-  border: 0.5em solid rgb(230, 34, 34);
+margin-right: 2rem;
 }
 
-.left:after {
-  content: '';
-	display: inline-block;
-  margin-top: 1.05em;
-  margin-left: 0.6em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #e37b20;
-  border-right: 0.5em solid #e37b20;
-  -moz-transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-}
-
-.right {
-  display: inline-block;
-  width: 4em;
-  height: 4em;
-  border: 0.5em solid #ffffff;
-  border-radius: 50%;
-  margin-left: -24rem;
-  vertical-align: middle; 
-  margin-top: -8.74rem;
-}
-
-.right:after {
-  content: '';
-	display: inline-block;
-  margin-top: 1.05em;
-  margin-left: -0.6em;
-  width: 1.4em;
-  height: 1.4em;
-  border-top: 0.5em solid #e37b20;
-  border-right: 0.5em solid #e37b20;
-  -moz-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-.right:hover{
-  border: 0.5em solid rgb(230, 34, 34);
-}
-.hand-emoji {
-  animation: wave 1s infinite;
-}
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(10deg);
-  }
-  75% {
-    transform: rotate(-10deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
