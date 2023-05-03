@@ -29,16 +29,6 @@ function Projects() {
         <a><button>General Assembly</button></a>
         <a id="long" href='https://generalassemb.ly/education/software-engineering-immersive' target='_blank'><button> 💻 Software Engineer Fellow</button></a>
         </div>
-        <div className='projectOne'>
-        <img src='/FilmoveSS.png' />
-        <a><button>FilMove</button></a>
-        <a href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Source Code</button></a>
-        </div>
-        <div className='projectOne'>
-        <img src='/FilmoveSS.png' />
-        <a><button>FilMove</button></a>
-        <a href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Source Code</button></a>
-        </div>
 
         </div>
         </>
