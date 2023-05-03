@@ -18,8 +18,7 @@ function About() {
              while also allowing me to express my creativity in multiple ways!
              <br />
              <br />
-             <br />
-             <span>Resume Placeholder</span>
+            <a href='https://drive.google.com/file/d/1WoYG7HitWH53UDRhBxBZuFB4PIt969_u/view?usp=sharing' target='_blank'><span className='resume'> 📄 Resume </span></a>
               </p>
             
       </div>
@@ -45,7 +44,7 @@ function About() {
     <a href='https://github.com/melroseceballos' target='_blank'><button className='github'> More On Github</button> </a>
     </div>
     <div>
-      <p className='mode'> 🌞 Lightmode Placeholder</p>
+      {/* <p className='mode'> 🌞 Lightmode Placeholder</p> */}
     </div>
     </div>
 

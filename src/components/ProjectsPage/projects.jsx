@@ -9,13 +9,13 @@ function Projects() {
         <div className='projectOne'>
         <img src='/FilmoveSS.png' />
         <a href='https://filmove.herokuapp.com/' target='_blank'><button> 🎬 FilMove App</button></a>
-        <a href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Source Code</button></a>
+        <a href='https://github.com/melroseceballos/FilMove' target='_blank'><button> 💻 Source Code</button></a>
         </div>
 
         <div className='projectOne'>
         <img src='/PathFinderSS.png' />
         <a href='https://pathfinder50.herokuapp.com/' target='_blank'><button> 🧭 PathFinder App</button></a>
-        <a href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Source Code</button></a>
+        <a href='https://github.com/melroseceballos/Pathfinder' target='_blank'><button> 💻 Source Code</button></a>
         </div>
 
         <div className='projectOne'>
@@ -26,7 +26,7 @@ function Projects() {
 
         <div className='projectOne'>
         <img src='/General1.png' />
-        <a><button>General Assembly</button></a>
+        <a><button> ⚙ General Assembly</button></a>
         <a id="long" href='https://generalassemb.ly/education/software-engineering-immersive' target='_blank'><button> 💻 Software Engineer Fellow</button></a>
         </div>
 
