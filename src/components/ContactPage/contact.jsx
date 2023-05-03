@@ -4,12 +4,13 @@ function Contact()  {
     return (
         <>
         <div className='Touch'>
-        <div className='get'>
-        <h1 className='beeTouch'>Let's Bee In Touch</h1>
+        <img className='contactSVG' src='/Contact.svg' />
+        <h1 className='linkedIn'>LinkedIn</h1>
+        <h1 className='gitHub'>Github</h1>
+        <h1 className='discord'>Discord</h1>
+        <a><button className='email'>Email Me</button></a>
         </div>
-        <div className='linkedIn'>
-        </div>
-        </div>
+           
         
         </>
     )

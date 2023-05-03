@@ -1,28 +1,55 @@
-.Touch{
-    text-align: center;
-    padding: 10rem;
-    padding-bottom: 30rem;
-}
-.get{
+.Touch {
+    padding: 25rem;
+    margin-top: 6rem;
+    padding-bottom: 1rem;
+  }
+  
+  .contactSVG {
+    padding: 0;
+    margin: 0 auto;
+    height: 45rem;
+    margin-top: -24rem;
+    margin-left: -26rem;
+  }
+  
+  .linkedIn {
+    margin-top: -34rem;
+    margin-left: -10rem;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
-    background-color: orange;
-    height: 30rem;
-    width: 30rem;
-    border-radius: 50%;
-
-}
-.beeTouch{
-    padding-top: 7rem !important;
-}
-.buzzMe{
-    padding-top: -5rem !important;
-}
-.LinkedIn{
+    color: orange;
+  }
+  
+  .gitHub {
+    margin-left: -17rem;
+    margin-top: 7rem !important;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
-    background-color: orange;
-    height: 30rem;
-    width: 30rem;
-    border-radius: 50%;
-}
+    color: rgb(255, 72, 0);
+  }
+  
+  .discord {
+    margin-top: 8rem;
+    margin-left: -13rem;
+    font-size: 3rem;
+    color: orange;
+  }
+  
+  .email {
+    position: absolute;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 5rem;
+    background-color: orangered;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    margin-top: -13rem;
+    border-radius: 1rem;
+    height: 5rem;
+    width: 20rem;
+  }
+  
