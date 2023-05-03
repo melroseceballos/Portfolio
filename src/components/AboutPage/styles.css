@@ -74,3 +74,14 @@ padding-bottom: -1rem;
 .elements{
   padding-top: 1rem;
 }
+.mode{
+  text-align: center;
+  margin-left: 40rem;
+  margin-top: -6rem;
+  color: wheat;
+}
+.github{
+  height: 3rem;
+  width: 15rem;
+  border-radius: 1rem;
+}

@@ -14,7 +14,13 @@ function About() {
             My favorite Front-end technologies are React.js and Vue.js, while my go-to backend technologies are Django and Express. 
             When working on projects, I enjoy setting up models and routes, building REST APIs, and styling. 
             I love being a Full-Stack software engineer because it challenges me to be efficient and innovative in my thinking,
-             while also allowing me to express my creativity in multiple ways! </p>
+             while also allowing me to express my creativity in multiple ways!
+             <br />
+             <br />
+             <br />
+             <span>Resume Placeholder</span>
+              </p>
+            
       </div>
     </div>
     <div className='extra'>
@@ -35,10 +41,10 @@ function About() {
     <a href="https://www.heroku.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg" width="36" height="36" alt="Heroku" /></a>
     </div>
     </h1>
-    <a href='https://github.com/melroseceballos' target='_blank'><button className='github'>More On My Github</button> </a>
-
-
-
+    <a href='https://github.com/melroseceballos' target='_blank'><button className='github'> More On Github</button> </a>
+    </div>
+    <div>
+      <p className='mode'> 🌞 Lightmode Placeholder</p>
     </div>
  
 
