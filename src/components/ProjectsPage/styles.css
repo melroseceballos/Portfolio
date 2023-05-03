@@ -27,7 +27,7 @@
     width: 22rem;
     margin-top: 2rem;
     grid-row: 1 / 2;
-    border: 10px solid rgb(255, 255, 255);
+    border: 10px solid rgb(246, 149, 76);
     border-radius: 1rem;
   }
   
@@ -39,9 +39,10 @@
     height: 3rem;
     width: 20rem;
     border-radius: 1rem;
-    border: 3px double rgb(255, 166, 0);
-    font-size: 1.3rem;
+    border: 3px double rgb(249, 239, 221);
+    font-size: 1rem;
     letter-spacing: 0.2rem;
   }
-  
-  
+  #long{
+    font-size: 1rem;
+  }

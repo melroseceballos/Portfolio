@@ -19,15 +19,15 @@ function Projects() {
         </div>
 
         <div className='projectOne'>
-        <img src='/FilmoveSS.png' />
+        <img src='/Philly.png' />
         <a><button> 🤝 Philly Outreach Site</button></a>
-        <a href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Source Code</button></a>
+        <a id="long" href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Software Engineer Intern</button></a>
         </div>
 
         <div className='projectOne'>
-        <img src='/FilmoveSS.png' />
-        <a><button>FilMove</button></a>
-        <a href='https://filmove.herokuapp.com/' target='_blank'><button> 💻 Source Code</button></a>
+        <img src='/General1.png' />
+        <a><button>General Assembly</button></a>
+        <a id="long" href='https://generalassemb.ly/education/software-engineering-immersive' target='_blank'><button> 💻 Software Engineer Fellow</button></a>
         </div>
         <div className='projectOne'>
         <img src='/FilmoveSS.png' />
