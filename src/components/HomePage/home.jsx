@@ -4,7 +4,7 @@ function Home() {
   return (
     <main>
       <div>
-        <img src="/FullBody.svg" alt="FullBodySVG" className='HomeSVG'/>
+        <img id='home' src="/FullBody.svg" alt="FullBodySVG" className='HomeSVG'/>
       </div>
     </main>
   );

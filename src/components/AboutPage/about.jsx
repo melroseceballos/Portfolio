@@ -6,7 +6,7 @@ function About() {
   <div className='aboutPage'>
    <div className="about-container">
       <div className="about-text">
-      <h1 className="aboutIntro">Hi There <span className="hand-emoji" role="img" aria-label="Waving Hand">👋</span><br />My Name is Melrose Ceballos</h1>
+      <h1 id='about' className="aboutIntro">Hi There <span className="hand-emoji" role="img" aria-label="Waving Hand">👋</span><br />My Name is Melrose Ceballos</h1>
         <h3 className='buzz'>..and I'm so buzzed to meet you!</h3>
         </div>
         <div className="pic" ><img src="pfp.png"/></div>

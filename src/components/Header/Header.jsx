@@ -1,6 +1,7 @@
 import './styles.css'
 import React, { useEffect, useState } from 'react'
 
+
 function Header() {
   const [isNavHidden, setIsNavHidden] = useState(false);
 
@@ -21,10 +22,10 @@ function Header() {
   return (
     <header>
       <nav className={`navigation ${isNavHidden ? 'hidden' : ''}`}>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">CONTACT <span class="me">ME</span></a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT <span class="me">ME</span></a></li>
       </nav>
     </header>
   )
