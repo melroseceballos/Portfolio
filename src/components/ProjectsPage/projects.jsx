@@ -3,7 +3,7 @@ import './styles.css'
 function Projects() {
     return(
         <>
-        <h1 className='projectsTitle'>Projects</h1>
+        <h1 className='projectsTitle'>Recent Works</h1>
         <div className='projects'>
 
         <div className='projectOne'>
