@@ -37,6 +37,9 @@
     height: 3rem;
     width: 20rem;
     border-radius: 1rem;
+    border: 3px double rgb(255, 166, 0);
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
   }
   
   

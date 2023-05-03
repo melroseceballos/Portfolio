@@ -23,7 +23,7 @@ function Header() {
       <nav className={`navigation ${isNavHidden ? 'hidden' : ''}`}>
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">PROJECTS</a></li>
         <li><a href="#">CONTACT <span class="me">ME</span></a></li>
       </nav>
     </header>

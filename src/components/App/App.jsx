@@ -3,6 +3,7 @@ import Header from "../Header/Header"
 import Home from "../HomePage/home"
 import About from "../AboutPage/about"
 import Projects from "../ProjectsPage/projects"
+import Contact from "../ContactPage/contact"
 
 
 function App () {
@@ -12,6 +13,7 @@ function App () {
     <Home />
     <About />
     <Projects />
+    <Contact />
     </>
   )
 }

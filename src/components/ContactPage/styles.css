@@ -1,0 +1,17 @@
+.Touch{
+    text-align: center;
+    padding: 10rem;
+    padding-bottom: 30rem;
+}
+.get{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+
+}
+.beeTouch{
+    padding-top: 7rem !important;
+}
