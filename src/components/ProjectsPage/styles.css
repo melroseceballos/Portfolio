@@ -1,0 +1,42 @@
+.projectsTitle{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 75px;
+    color: orange;
+    background-color: wheat;
+    padding: 1rem;
+}
+.projects {
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 8rem; 
+  }
+  
+  .projectOne {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  
+  .projectOne img {
+    height: 15rem;
+    width: 23rem;
+    margin-top: 2rem;
+    grid-row: 1 / 2;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+  }
+  
+  .projectOne button {
+    grid-row: 2 / 3;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 1rem;
+  }
+  
+  
