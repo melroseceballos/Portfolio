@@ -3,6 +3,7 @@ import './styles.css'
 function About() {
   return (
   <>
+  <div className='aboutPage'>
    <div className="about-container">
       <div className="about-text">
       <h1 className="aboutIntro">Hi There <span className="hand-emoji" role="img" aria-label="Waving Hand">👋</span><br />My Name is Melrose Ceballos</h1>
@@ -46,7 +47,7 @@ function About() {
     <div>
       <p className='mode'> 🌞 Lightmode Placeholder</p>
     </div>
- 
+    </div>
 
   </>
    

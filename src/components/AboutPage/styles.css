@@ -17,11 +17,11 @@
     position: absolute;
     left: 15%;
     transform: translate(-50%, -50%) translateX(40rem);
-    margin-top: -28rem;
+    margin-top: -26rem;
   }
   .buzz{
     margin-left: 40rem;
-    margin-top: -23rem;
+    margin-top: -21rem;
     font-size: 1.2rem;
   }
   .about-text p {
@@ -30,15 +30,15 @@
   }
   .pic {
     display: block;
-    margin-left: 8rem;
+    margin-left: 5rem;
     width: 5rem;
     height: 10rem;
   
   }
   
   .pic img {
-    height: 28rem;
-    margin-top: -28rem;
+    height: 24rem;
+    margin-top: -35rem;
     border: 8px solid #f38f16dc ;
     border-radius: 50%;
   }
@@ -64,7 +64,7 @@ padding-bottom: -1rem;
 .extra{
   text-align: center;
   margin-left: -45rem;
-  margin-top: -8rem;
+  margin-top: -10rem;
   padding-bottom: 5rem;
 
 }
@@ -76,12 +76,13 @@ padding-bottom: -1rem;
 }
 .mode{
   text-align: center;
-  margin-left: 40rem;
-  margin-top: -6rem;
+  margin-left: 35rem;
+  margin-top: -9rem;
   color: wheat;
 }
 .github{
   height: 3rem;
   width: 15rem;
   border-radius: 1rem;
+  margin-left: 45rem;
 }
